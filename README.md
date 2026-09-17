@@ -12,16 +12,16 @@ What we care about:
 
 ## ACME clients & libraries
 
-| Platform                                             | EAB | ARI                                                                                                 | Notes                                           |
-| ---------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [certbot](https://certbot.eff.org/)                   | yes | [yes](https://community.letsencrypt.org/t/certbot-4-1-0-release/238369), since v4.1.0                | EFF; de-facto standard on Linux/Unix.           |
-| [acme.sh](https://github.com/acmesh-official/acme.sh) | yes | [yes](https://github.com/acmesh-official/acme.sh/releases/tag/3.1.4), since v3.1.4                   | Pure-shell POSIX client.                        |
-| [dehydrated](https://dehydrated.io/)                  | yes | [no](https://github.com/dehydrated-io/dehydrated/issues/957)                                         | Bash + OpenSSL, very few dependencies.          |
-| [lego](https://go-acme.github.io/lego/)               | yes | [yes](https://github.com/go-acme/lego/releases/tag/v4.12.0), since v4.12.0                           | Go, single binary, minimal dependencies. Needs a bogus ACME challenge in config to allow EAB           |
-| [Certify The Web](https://certifytheweb.com/)         | yes | [yes](https://certifytheweb.com/home/changelog), since v5.9.5                                        | Windows GUI client.                             |
-| [simple-acme](https://simple-acme.com/)               | yes | [yes](https://github.com/win-acme/win-acme/discussions/2351), since v2.2.3 (inherited from win-acme) | Windows; maintained fork/successor of win-acme. |
-| [win-acme](https://www.win-acme.com/)                 | yes | [yes](https://github.com/win-acme/win-acme/discussions/2351), since v2.2.3                           | Unmaintained; use simple-acme instead.          |
-| [anvil](https://github.com/webprofusion/anvil)        | yes | yes | Dotnet;  Backend library behind Certify The Web. Can be used standalone
+| Platform                                              | EAB | ARI                                                                                                   | Stack/lang | Notes                               |
+| ----------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------- | -----------| ----------------------------------- |
+| [certbot](https://certbot.eff.org/)                   | yes | yes (since [v4.1.0](https://community.letsencrypt.org/t/certbot-4-1-0-release/238369))                | Python | De-facto standard on Linux/Unix         |
+| [acme.sh](https://github.com/acmesh-official/acme.sh) | yes | yes (since [v3.1.4](https://github.com/acmesh-official/acme.sh/releases/tag/3.1.4))                   | Pure-shell POSIX |                               |
+| [dehydrated](https://dehydrated.io/)                  | yes | no ([issue](https://github.com/dehydrated-io/dehydrated/issues/957))                                  | Bash/OpenSSL | Very few dependencies             |
+| [lego](https://go-acme.github.io/lego/)               | yes | yes (since [v4.12.0](https://github.com/go-acme/lego/releases/tag/v4.12.0))                           | Go |  Single binary, minimal dependencies. Needs a bogus ACME challenge in config to allow EAB           |
+| [Certify The Web](https://certifytheweb.com/)         | yes | yes (since [v5.9.5](https://certifytheweb.com/home/changelog))                                        | Windows | GUI client                             |
+| [win-acme](https://www.win-acme.com/)                 | yes | yes (since [v2.2.3](https://github.com/win-acme/win-acme/discussions/2351)                            | Windows | Unmaintained, use `simple-acme` instead|
+| [simple-acme](https://simple-acme.com/)               | yes | yes (since [v2.2.3](https://github.com/win-acme/win-acme/discussions/2351),  inherited from win-acme) | Windows | Maintained fork/successor of win-acme  |
+| [anvil](https://github.com/webprofusion/anvil)        | yes | yes                                                | .NET | Backend library behind [Certify The Web](https://certifytheweb.com); can be used standalone  |
 
 ## Appliances & server-side platforms
 
