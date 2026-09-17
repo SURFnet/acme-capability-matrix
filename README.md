@@ -21,6 +21,7 @@ What we care about:
 | [Certify The Web](https://certifytheweb.com/)         | yes | [yes](https://certifytheweb.com/home/changelog), since v5.9.5                                        | Windows GUI client.                             |
 | [simple-acme](https://simple-acme.com/)               | yes | [yes](https://github.com/win-acme/win-acme/discussions/2351), since v2.2.3 (inherited from win-acme) | Windows; maintained fork/successor of win-acme. |
 | [win-acme](https://www.win-acme.com/)                 | yes | [yes](https://github.com/win-acme/win-acme/discussions/2351), since v2.2.3                           | Unmaintained; use simple-acme instead.          |
+| [anvil](https://github.com/webprofusion/anvil)                 | yes | yes | Dotnet;  Backend library behind Certify The Web. Can be used standalone
 
 ## Appliances & server-side platforms
 
