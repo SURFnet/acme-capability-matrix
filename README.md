@@ -2,13 +2,13 @@
 
 A community list of ACME clients, appliances and server-side platforms, and their support of essential functionality.
 
-Initial version from [SURF&#39;s ACME knowledge base page](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/147098524/ACME). This overview is based on information we receive from users and therefore does not constitute explicit recommendations from SURFcertificaten. Do you have any positive experiences or examples of successful implementations of another tool? Please let us know! Submit a pull request or email.
+Initial version from [SURF&#39;s ACME knowledge base page](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/147098524/ACME). This overview is based on information we receive from users and therefore does not constitute explicit recommendations from SURFcertificaten. Do you have any positive experiences or examples of successful implementations of another tool? Please let us know! Submit a pull request or [send an email](mailto:mailto:certificaten-beheer@surf.nl).
 
 What we care about:
 
 - **ACME:** *How* the platform can get certificates over ACME
-- **EAB:** If it supports External Account Binding ([RFC 8555 §7.3.4](https://www.rfc-editor.org/rfc/rfc8555#section-7.3.4)) for OV certificates and CA’s other than Let’s Encrypt.
-- **ARI:** ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/)) for CA control of renewal.
+- **EAB:** If it supports External Account Binding ([RFC 8555 §7.3.4](https://www.rfc-editor.org/rfc/rfc8555#section-7.3.4)) for OV certificates and CAs other than Let’s Encrypt.
+- **ARI:** ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/)) for CA control of renewal. 
 
 ## ACME clients & libraries
 
