@@ -2,7 +2,11 @@
 
 A community list of ACME clients, appliances and server-side platforms, and their support of essential functionality.
 
-Initial version from [SURF&#39;s ACME knowledge base page](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/147098524/ACME). This overview is based on information we receive from users and therefore does not constitute explicit recommendations from SURFcertificaten. Do you have any positive experiences or examples of successful implementations of another tool? Please let us know! Submit a pull request or email.
+Initial version from [SURF&#39;s ACME knowledge base page](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/147098524/ACME).
+This overview is based on information we receive from users and therefore does not constitute explicit recommendations nor endorsements from SURFcertificaten.
+Do you have any positive experiences or examples of successful implementations of another tool?
+Please let us know!
+Submit a pull request or email.
 
 What we care about:
 
