@@ -8,7 +8,7 @@ What we care about:
 
 - **ACME:** *How* the platform can get certificates over ACME
 - **EAB:** If it supports External Account Binding ([RFC 8555 §7.3.4](https://www.rfc-editor.org/rfc/rfc8555#section-7.3.4)) for OV certificates and CAs other than Let’s Encrypt.
-- **ARI:** ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/)) for CA control of renewal. 
+- **ARI:** ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/)) for CA control of renewal.
 
 ## ACME clients & libraries
 
