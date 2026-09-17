@@ -1,17 +1,14 @@
 # ACME Capability Matrix
 
-A community list of ACME **clients**, **appliances** and **server-side platforms**, with support flags. 
+A community list of ACME clients, appliances and server-side platforms, and their support of advanced functionality.
 
 [SURF&#39;s ACME knowledge base page](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/147098524/ACME).
 
-Values we care about:
+What we care about:
 
-- **ACME: ***how* the platform can get certificates over ACME
-- **EAB: ** External Account Binding ([RFC 8555 §7.3.4](https://www.rfc-editor.org/rfc/rfc8555#section-7.3.4))
-- **ARI: **ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/))
-
----
-
+- **ACME: ***How* the platform can get certificates over ACME
+- **EAB: ** If it supports External Account Binding ([RFC 8555 §7.3.4](https://www.rfc-editor.org/rfc/rfc8555#section-7.3.4)) for CA’s other than Let’s Encrypt.
+- **ARI: **ACME Renewal Information ([RFC 9773](https://www.rfc-editor.org/info/rfc9773/)) for CA control of renewal. 
 
 ## Legend
 
@@ -33,11 +30,6 @@ Values we care about:
 | `no`      | Verified not supported.             |
 | `planned` | Announced/committed, not shipped.    |
 | `?`       | Not verified yet.                    |
-
-> `?` means *it's not checked*, not *it doesn't work*. Please don't replace a `?` with a
-> `no` unless you have a source.
-
----
 
 ## ACME clients & libraries
 
