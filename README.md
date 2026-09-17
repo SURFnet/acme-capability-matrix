@@ -6,7 +6,7 @@ Initial version from [SURF&#39;s ACME knowledge base page](https://servicedesk.s
 This overview is based on information we receive from users and therefore does not constitute explicit recommendations nor endorsements from [SURFcertificaten](https://www.surf.nl/diensten/beveiliging/surfcertificaten).
 Do you have any positive experiences or examples of successful implementations of another tool?
 Please let us know!
-Submit a pull request or email.
+[Submit a pull request](pulls) or [send an email](mailto:mailto:certificaten-beheer@surf.nl).
 
 What we care about:
 
