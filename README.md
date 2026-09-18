@@ -58,3 +58,7 @@ What we care about:
 | `no`      | Verified not supported.             |
 | `planned` | Announced/committed.                 |
 | `?`       | Not verified yet.                    |
+
+## License
+
+This work is licenced under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
